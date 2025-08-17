@@ -1,0 +1,86 @@
+
+
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #5
+Full Name  : SAHIL HARESHBHAI PATEL
+Student ID#: 173793225
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+Key Architectural Insights:
+
+Abstract Base Class Design
+The Shape class serves as a pure abstract base class, defining a contract for all derived shapes through pure virtual functions:
+
+cppCopyvirtual void draw(std::ostream&) const = 0;
+virtual void getSpecs(std::istream&) = 0;
+This approach ensures that any concrete shape must implement drawing and specification-reading behaviors, enforcing a consistent interface across different shape types.
+
+Inheritance Hierarchy
+The hierarchy progresses logically:
+
+
+Shape (abstract base)
+
+LblShape (adds label functionality)
+
+Line
+Rectangle
+
+
+Each level adds more specific behavior while maintaining the core shape contract. This demonstrates the "is-a" relationship in inheritance.
+
+Dynamic Memory Management
+The LblShape class showcases careful memory handling:
+
+
+Uses dynamic allocation for labels
+Implements custom copy prevention (deleted copy constructor/assignment)
+Provides a destructor to free allocated memory
+
+
+Polymorphic Behavior
+The stream operators and virtual methods enable polymorphic interactions:
+
+cppCopystd::ostream& operator<<(std::ostream& ostr, const Shape& shape) {
+    shape.draw(ostr);
+    return ostr;
+}
+This allows treating different shape types uniformly through base class pointers or references.
+Memory Management Techniques:
+
+Utils::alocpy() provides a robust method for dynamic string copying
+Careful memory allocation and deallocation prevent memory leaks
+Use of delete[] for dynamically allocated character arrays
+
+Design Principles Demonstrated:
+
+Open/Closed Principle: The shape system is open for extension (new shapes can be added) but closed for modification
+Interface Segregation: Each shape defines its own drawing and specification-reading method
+Dependency Inversion: High-level modules depend on abstractions (Shape interface)
+
+Practical Implications:
+
+Flexible system for creating and managing different types of shapes
+Consistent interface for input/output operations
+Ability to work with shapes polymorphically
+
+Potential Improvements:
+
+Could add more error checking in specifications reading
+Might implement copy/move semantics for more advanced memory management
+Consider adding more shape types or more complex drawing capabilities
+
+The workshop effectively teaches:
+
+Inheritance hierarchies
+Polymorphic design
+Dynamic memory management
+Interface design
+Stream I/O manipulation
+
+Overall, this implementation provides a robust framework for creating and manipulating different types of shapes, showcasing core object-oriented programming principles in a practical, extensible manner. CopyRetryClaude does not have the ability to run the code it generates yet.
