@@ -1,0 +1,48 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #2
+Full Name  : SAHIL HARESHBHAI PATEL
+Student ID#: 173793225
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+
+Answer :
+
+ here's a summary of the key points and learning outcomes:
+
+1. Dynamic Memory Allocation (DMA):
+   This workshop examines dynamic memory allocation in C++ which is quite important in handling memory. The `reverse()` function in the following program of dma.cpp also built upon the same concept as has been explained above for the dynamic allocation of an array of doubles based upon the response of the user. All the coordinates of the concept maps are set appropriately with the observation that memory should be deleted using delete[] to avoid issues of memory leaks.
+
+2. Pointers and References:
+   It should however be noted that most of the work in a workshop involves the use of pointers and references. For instance the function of ‘getContact()’ carries out a struct Contact on the heap to make it capable of returning it this function needs pointer value. The `display()` & `setEmpty()` are implemented simply by reference only not passing the Contact objects so the question of relying on the objects with large data might take a lot of time does not get to them as well.
+
+3. Structs and Compound Types:
+   For example the Contact struct in dma.h shows how C++ has compound data type in its language. It using the char arrays with the ‘long long’ data type to store the respective values that making up the object.
+
+4. Function Overloading:
+   From the ‘input.h ‘and ‘input.cpp ‘ files one can see an example of function overloading through the ‘getInt( )’ function. This goes to show how you can explicit two functions with the some crew but disparate parameters, in this appreciation it means that the way parameters are lapsed in this vista does not sole differ in syntactic sense but it could be very plausible and comprehensible.
+
+5. Input Validation:
+   A few more functions in input.cpp are as follows: Several `getInt()` functions are very strict in check and from the result section we can see that the input given agrees with the expected format and type. It is essential in order to develop accurate and convenient computing programs.
+
+6. Modular Programming:
+   The structure of the code is separated in different files (dma.cpp, dma.h, input.cpp, input.h) which the workshop stresses on the idea of modular programming. This makes the code more manageable; it is quite easy to search, sort, or even reuse the code in the near future.
+
+7. Namespace Usage:
+   The code had followed one of the best practices which are naming items in the seneca namespace and no naming problem was witnessed within the code.
+
+8. Memory Management:
+   The usage of dynamic memory, its allocation and especially free, free(0) is demonstrated in the context of the workshop. For instance, if one wastes his/her time and attempt to go through the `deallocates()` function in the offered file dma.cpp, he/she will be in a position of realizing how memory release is done in order to counter cope with these certain leaks.
+
+9. Header Guards:
+As seen in the C++ programming notes both the files, the arguments files i.e., the dma.h and the input.h contain the header guards using the #ifndef followed by #define and the #endif.
+
+10.Documentation:
+Perhaps there are plentiful comments in the code along with brief descriptions of each function, which means the author has enclosed the code along with the information that anybody would need to understand the code fully.
+
+This workshop offers a good knowledge in several important C++ concepts with the emphasis on the usage of the dynamic memory allocation, pointers, and input. This proves that developing an application in C++ entails some serious thinking on how the application is going to look like, as well as the management of memory resources.
