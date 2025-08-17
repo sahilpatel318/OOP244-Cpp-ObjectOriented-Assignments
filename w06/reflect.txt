@@ -1,0 +1,41 @@
+
+
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #5
+Full Name  : SAHIL HARESHBHAI PATEL
+Student ID#: 173793225
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+
+Answer:
+
+founded and that is why am highlighting the following as some of the key concepts that are going to be covered in this workshop.
+
+
+The main emphasis of this workshop was on using a simple program written in C++ and a single custom class Numbers that may operate on a set of numeric values.
+
+The class is to read the data from a file, some mathematical operations such as finding average, minimum, and maximum, sort the numbers and add new numbers to the collection of numbers.
+
+Dynamic memory allocation is the hall mark of the Numbers class keeping the numeric data of the class. 
+
+This makes the class capable of taking collections of increased size rather than a fixed one which is a fixed size array. 
+
+In the class, copy construction and assignment operators are also exhibited to show the creation of the new instances of the class in the correct manner as well as managing of the memory space.
+
+The distinction between the ‘face’ and the ‘implementation’ of a class is another concept discussed in this workshop. 
+
+This modular design makes the code easier to maintain and easier for the user of the Numbers class to understand because all of this user needs to know are the public member functions which are implemented inside the class; no other implementation details are visible to the user of this class.
+
+Another topic of the workshop is the utilization of overloaded operators, including the insertion (<<) and extraction (>>) operators, to make work with the Numbers class less obscure. 
+
+It also makes this class blend well into larger programs since it is more familiar and has an easier interface for use in classrooms.
+
+Last aspect of the workshop, error handling, and validation are illustrated in the Numbers class when the program is unable to handle an invalid file name or an empty data set. This makes it possible to instill into the class the solidity and dependability that is important for real application development.
+
+Overall, this workshop has provided a solid foundation in object-oriented programming concepts, particularly around the design and implementation of custom classes in C++. The skills and knowledge gained will be valuable for future programming projects and problem-solving tasks.
