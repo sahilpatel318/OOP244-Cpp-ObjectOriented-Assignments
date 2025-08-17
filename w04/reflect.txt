@@ -1,0 +1,70 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #2
+Full Name  : SAHIL HARESHBHAI PATEL
+Student ID#: 173793225
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+Answer:
+
+1. Classes: Definition and Encapsulation
+Unlike the traditional class, the Canister class provide a good example of encapsulation since it uses private member variables and the class member functions which are public.
+It presents data members like m_contentName, m_diameter, m_height, and m_contentVolume, together with behaviors like pour, clear, and setContent all related to a canister.
+
+
+2.Resource Management
+The class also keeps track of m_contentName dynamically thus illustrating proper manipulation of resources.
+It implements the Rule of Three: destructor, copy constructor, and copy assignment operator are called; however, all of these are marked as deleted.
+
+
+3.Here, there are only two special functions known as the member functions and the helper functions.
+Different functions that belong to the class member include isEmpty, usable, and hasSameContent all of which capture canister operations.
+In general the design of helper functions such as setToUnusable and capacity is good in terms of decomposing a complex task/operation.
+
+
+4.Constructors and Overloading
+Two constructors are created, and to show that constructors can be overloaded a default constructor is also created.
+The demonstration of the three-argument constructor to create an object of a class with different parameters is displayed.
+
+
+5.const Correctness
+Most member functions are declared const (such as, isEmpty, usable, & capacity) to avoid changing the state of the object.
+
+
+6.Stream Output
+The display function shows an example of formatting data of the object and putting it to a stream.
+
+
+7.In the next chapter, I will discuss error handling and state management in BuckleScript.
+The setToUnusable function demonstrates on how the class can handle errors The setToUnusable function demonstrates on how the class can handle errors
+
+
+8.Operator Overloading
+Although not mentioned as implemented, the class design allows one to envisage that it is possible to overload such operators for the class as the assignment operator.
+
+Implementation Details
+
+1.Memory Management
+Alocpy has been implemented in cstr.cpp to avoid the problems associated with dynamic memory allocation for strings and copy them safely.
+The destructor and clear function are fine to free the memory space which has been allocated.
+
+
+2.Calculation Methods
+The canister’s volume can be calculated using the formula; π * (height – 0.267) * (diameter/2)² in the capacity method.
+
+
+3.State Validation
+The usable method also makes it possible to regulate the size of the canister so that it stands within acceptable fabrication limits.
+
+
+4.Content Management
+setContent and pour methods control the moments which include logic for how content is to be added or transferred between canisters.
+
+
+5.Display Formatting
+The display method utilizes the iostream manipulators and hence provides a precise formatted output.
