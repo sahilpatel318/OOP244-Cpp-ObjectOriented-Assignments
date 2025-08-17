@@ -1,0 +1,33 @@
+Script started on Wed 20 Nov 2024 11:52:20 AM EST
+==80373== Memcheck, a memory error detector
+==80373== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==80373== Using Valgrind-3.21.0 and LibVEX; rerun with -h for copyright info
+==80373== Command: ms.exe
+==80373== 
+??????????
+This is an invalid MenuItem
+The Menu Item
+   0- The Menu Item
+       1- The Menu Item
+             2- The Menu Item
+??????????
+ 4- The Menu Item
+   5- The Menu Item
+       6- The Menu Item
+             7- The Menu Item
+??????????
+ 9- The Menu Item
+  10- The Menu Item
+      11- The Menu Item
+            12- The Menu Item
+??????????
+==80373== 
+==80373== HEAP SUMMARY:
+==80373==     in use at exit: 0 bytes in 0 blocks
+==80373==   total heap usage: 13 allocs, 13 frees, 72,872 bytes allocated
+==80373== 
+==80373== All heap blocks were freed -- no leaks are possible
+==80373== 
+==80373== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Wed 20 Nov 2024 11:52:21 AM EST
