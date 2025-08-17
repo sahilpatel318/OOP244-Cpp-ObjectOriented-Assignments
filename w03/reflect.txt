@@ -1,0 +1,42 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #3
+Full Name  : SAHIL HARESHBHAI PATEL
+Student ID#: 173793225
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+
+Answer :
+
+ here's a summary of the key points and learning outcomes:
+
+1.Class Design: In the CC class encapsulation is achieved by utilizing private variables and public methods for data manipulation.
+
+2.Memory Management: In the alocpy function memory allocation using new and free handles manual memory management important for C++.
+
+3.C-string Handling: Implementation of string functions strlen and strcpy reveals the essential features of manipulating strings in C++.
+
+4.Input Validation: In the CC class's validate function you can see methods for verifying input to protect data integrity.
+
+5.Formatting Output: To create readable console output the display functions utilize iostream manipulators to layout the output.
+
+6.File I/O: In the main.cpp file are examples of file input methods based on C-style file pointers and the fscanf function.
+
+7.Operator Overloading: Although the presented code lacks explicit indication of the CC class structure it can support operator overloading if required.
+
+8.Const Correctness: Implementing const in function parameters and member functions demonstrates the value of const correctness for keeping code safe and optimized.
+
+9.Namespace Usage: Specifically in the code is the usage of namespaces (seneca) to order related sections.
+
+10.Header Guards: Using #ifndef and #define in header files stops the occurrence of duplicate inclusions.
+
+These principles are crucial for C++ programming and design based on objects. 
+
+They reveal methods to establish durable and optimized code. To allow us to grasp the real-world relevance of these concepts in their learning experience the workshop aims to offer practical insights.
+
+This workshop offers a good knowledge in several important C++ concepts with the emphasis on the usage of the dynamic memory allocation, pointers, and input. This proves that developing an application in C++ entails some serious thinking on how the application is going to look like, as well as the management of memory resources.
