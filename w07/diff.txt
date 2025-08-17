@@ -1,0 +1,14 @@
+In line number 11 of your output:
+The output should be:
+> John Doe,IPC144 - Introduction to Programming Using C, 3, 12312, 65432
+           ^
+But your output is: 
+> John Doe, 12312, 65432,IPC144 - Introduction to Programming Using C,3
+           ^
+
+Unmatched character details:
+The character in column 12 is supposed to be:
+  [I] ASCII code(73)
+but you printed
+  [Space] ASCII code(32)
+
