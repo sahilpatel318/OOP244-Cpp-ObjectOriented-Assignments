@@ -1,0 +1,61 @@
+
+
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #10
+Full Name  : SAHIL HARESHBHAI PATEL
+Student ID#: 173793225
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+
+The workshop primarily explores several key C++ programming concepts:
+
+Function Templates
+The dynaCopy.h file showcases function templates as a powerful mechanism for creating generic, reusable code. The two overloaded dynaCopy functions demonstrate how templates allow writing flexible functions that can work with different data types:
+
+cppCopytemplate <typename T>
+T* dynaCopy(const T* source, int size);  // Creates a new array
+template <typename T>
+T* dynaCopy(T*& destination, const T* source, int size);  // Replaces existing array
+These templates enable copying arrays of any type (integers, custom objects like Name) without duplicating code. The template mechanism allows the compiler to generate specific implementations for each type at compile-time, providing type safety and performance.
+
+Dynamic Memory Management
+The workshop emphasizes proper dynamic memory allocation and deallocation. The Name class implements the Rule of Three:
+
+
+Copy Constructor: Deep copies dynamic memory
+Assignment Operator: Safely deallocates existing memory before copying
+Destructor: Frees dynamically allocated memory
+
+The Utils class provides crucial memory management utility functions like alocpy(), which safely allocates and copies strings, preventing memory leaks and performing safe memory operations.
+
+Resource Management Techniques
+The code demonstrates several resource management best practices:
+
+
+Using references to modify pointers in-place
+Implementing deep copy semantics
+Properly freeing memory to prevent leaks
+Providing default constructors and custom constructors
+
+
+Polymorphic Behavior
+The Name class includes virtual methods like display() and read(), allowing potential inheritance and runtime polymorphism. The bool conversion operator provides additional flexibility in object usage.
+Input/Output Stream Manipulation
+Custom stream operators (<< and >>) are implemented to allow natural input and output of Name objects, demonstrating how to extend standard I/O capabilities for user-defined types.
+
+Key Learning Outcomes:
+
+Function templates enable writing generic, type-independent code
+Careful dynamic memory management is crucial to prevent memory-related errors
+Deep copying requires explicit implementation for classes with dynamic memory
+Utility classes can encapsulate common operations to improve code reusability
+Operator overloading and type conversions can make custom classes more intuitive to use
+
+The workshop effectively illustrates how modern C++ techniques can create flexible, safe, and efficient code through thoughtful design of templates, memory management, and object interactions.
+This comprehensive review highlights the intricacies of function templates and dynamic memory management, showcasing the depth of object-oriented programming principles in C++.
