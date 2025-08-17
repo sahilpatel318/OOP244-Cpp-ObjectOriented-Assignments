@@ -1,0 +1,58 @@
+
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #5
+Full Name  : SAHIL HARESHBHAI PATEL
+Student ID#: 173793225
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+Answer:
+
+key points:
+
+Type Conversion Operators:
+
+The Account object provides overloading services of operator bool(), operator int(), and operator double() thus permitting direct conversion in an intuitive manner into these fundamental types for use in tests for zero or equality to zero and mathematical operations.
+
+
+Unary Operators:
+
+operator ~() is overridden to decide if an account is new explaining that existing operators can be used for their own specific interpretations.
+
+
+Assignment Operators:
+
+operator=(int) and operator=(Account&) illustrates two cases in assigning – one case for assigning an account number and the other for account transferring.
+
+
+Compound Assignment Operators:
+
+use of operator+=() and operator-=() for deposit and withdrawal operation and explain how arithmetic operations could be given a financial semantics.
+
+
+Binary Operators:
+
+This is how stream operators are not only changed to perform usual domain operations like operator<<() and operator>>(), but effectively used to transfer funds between accounts.
+
+
+Non-member Operators:
+
+Using operator+() and operator+=() as free functions describing how to implement operators that don’t change the value of the left-hand operand.
+
+
+
+Reflections on Design Choices:
+
+That’s why the setEmpty() function and correct validation in constructors and operators help to keep accounts in a proper state.
+Before C++11, operators were implemented as overloaded with runtime errors, which increases resource usage and has a negative effect on code readability and the written material with the introduction of operator bool() increases writing efficiency and makes validity checks simplified.
+Like stated, some operators (+, +=) have been implemented as non–member functions which show good understanding of whether it is appropriate to implement in terms of member functions or not.
+
+Learning Outcomes:
+This workshop finally and glaringly bolsters the need to design easy to use interfaces for the classes we create. This way we also can make our defined types act like standard ones which is good practice to write more elegant and pretty code. It also put stress on the fact that precaution should be taken during the design to keep track of the object invariants and avoid invalid state.
+The implementation demonstrates that object-oriented principles such as encapsulation may be preserved during the implementation but there are still methods of interactively maneuvering the objects in a flexible way. This is a typical example of OOP work where disclosure of buildings or other constructions has to be balanced with protection of the data that concern them.
+this workshop gives the students hand-on experience in the development of applications using the more advanced facets of C++ to implement high quality classes that can produce AES friendly classes, solid and user friendly classes for modern software development.
