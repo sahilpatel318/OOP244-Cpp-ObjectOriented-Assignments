@@ -1,0 +1,52 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #7
+Full Name  : SAHIL HARESHBHAI PATEL
+Student ID#: 173793225
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+
+Answer:
+
+The workshop focuses on creating a movie search program in C++, emphasizing several key programming concepts:The workshop focuses on creating a movie search program in C++, emphasizing several key programming concepts: 
+ 
+Modular Programming: 
+
+
+This is modular programming and the project is divided into various files namely movie. cpp, file. cpp, movie. h, main. cpp, utils. h, utils. cpp. This approach improves the organization, general usage, and readability of the code. Each module has a specific responsibility: various tasks associated with the movies, files and records management, computational and subordinate functions and the main algorithms of the film database program. 
+
+Structures: 
+The Movie structure is defined to store the several aspects of the movie such as the name, the year of release, the rating, the time span of the movie, the genre of the movie and the consumer rating of the movie. This exemplifies how user defined data type can be used in order to bring together similar data. 
+
+File I/O: 
+To do so, the program input data pertaining to the movie from a file that is named ‘movies. dat’, thus illustrating file input operations in C++. Such functions include openFile(), readTitle(), readYear() and so on, are some of the functions that deal with file reading. 
+
+Arrays and Strings: 
+The program employs arrays to a great extent, along with the storage of several movies (Movie movies[50]) and with strings (for example, char m_title[128]). This also highlights one’s ability on array manipulation and string handling in C++. 
+
+Pointers: 
+Pointers are used in the different function (for example hasGenre(const Movie* mvp, const char genre[])). The concept of pointers is presented as methodologies indicating the understanding of memory management and indirection. 
+
+Namespaces: 
+It is also shows that the author has a conception about how to divide codes into namespaces to avoid naming conflict, and the seneca namespace is create to group related functionality. 
+
+Input Validation and User Interaction:Input Validation and User Interaction: 
+Systems such as flushkeys() and yes() cover the users input abilities, thus making the interaction with the program to be perfect. 
+
+String Manipulation: 
+In the next example, there is the usage of string manipulation which applies toLowerCase() function to change characters to lower case. 
+
+Search Algorithms: 
+The hasGenre() and displayMoviesWithGenre() functions: These functions summarize a basic search algorithm in order to find movies depending on their genre. 
+
+Header Guards: 
+The proper use of #ifndef, #define and #endif in the header files proves knowledge of the fact that the compiler includes it only once so as to avoid complications. 
+
+C++ and C Integration: 
+Standard C/C ++ facilities such as ‘iostream’etc and traditional C facilities such as ‘fscanf’ etc are used in the same program which reveals the compatibility of C and C++. 
+ 
